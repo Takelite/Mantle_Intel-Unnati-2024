@@ -26,7 +26,7 @@ Mantle© provides real-time monitoring of CPU utilization. It displays the perce
   
 ![CPU Metrics](Images/cpu.png)
 <div align="center">
- CPU Metric plots
+ CPU Metric Plots
 </div>                                   
   
 ### 2. RAM and Disk Memory Usage:
@@ -35,6 +35,9 @@ Mantle© monitors the system's RAM usage, displaying the amount of memory curren
 **Disk Usage:** The tool tracks disk usage statistics, showing the amount of disk space used and available. It provides insights into disk performance and storage capacity, helping users manage their data storage more effectively.  
 
 ![Memory Metrics](Images/memory.png)
+ <div align="center">
+ Memory Usage Plots
+</div>  
   
 ### 3. Temperature Monitoring and Power Mode Switching:
 Mantle© tracks the temperature of various system components, including the CPU, GPU, and other critical hardware. It displays real-time temperature readings to help users ensure their system is operating within safe thermal limits.  
@@ -42,6 +45,9 @@ Mantle© tracks the temperature of various system components, including the CPU,
 **Power Mode Switching:** The tool allows users to switch between different power modes, such as performance mode, balanced mode, and power-saving mode. This enables users to optimize their system's power consumption based on their current needs, whether they require maximum performance or extended battery life.  
 
 ![Power Metrics](Images/temp.png)
+ <div align="center">
+Temperature Plots
+</div>  
   
 ### 4. Battery Statistics and NIC Power Consumption:
 Mantle© provides detailed battery statistics, including battery percentage, time remaining, and power state (whether the system is plugged in or running on battery). This information helps users manage their battery usage and plan for recharging.
@@ -49,12 +55,18 @@ Mantle© provides detailed battery statistics, including battery percentage, tim
 **NIC Power Consumption:** The tool monitors the power consumption of the Network Interface Card (NIC), which is crucial for understanding the energy impact of network activities. It helps in optimizing network usage to reduce power consumption.
 
 ![Battery Metrics](Images/battery.png)
+<div align="center">
+Battery Usage Plots
+</div> 
   
 ### 5. GPU Metrics Tracking:
 Mantle© tracks various GPU metrics, including power consumption, supply voltage and temperature. This provides insights into the performance and power efficiency of the GPU, helping users optimize graphics-intensive tasks and manage thermal performance.  
 
 ![GPU Metrics](Images/gpu.png)
-  
+<div align="center">
+ GPU Metric Plots
+</div>  
+   
 These features collectively provide a comprehensive view of system performance and power consumption, enabling users to monitor, manage, and optimize their system's efficiency and longevity effectively.
 
 
