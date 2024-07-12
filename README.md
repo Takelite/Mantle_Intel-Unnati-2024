@@ -21,13 +21,17 @@ The main objectives of this project include the following -
   
 ### 1. CPU Metrics:
 Mantle© provides real-time monitoring of CPU utilization. It displays the percentage of CPU usage for each individual core, allowing users to see which cores are under heavy load and which are idle. This helps in understanding the distribution of processing tasks across the CPU. C-states (idle states) are various levels of CPU idle modes where parts of the CPU can be powered down to save energy. Our GUI visualizes these states, showing the percentage of time the CPU spends in each C-state.  
-![CPU Metrics](Images/cpu.png)
-**Power Consumption:** The tool also measures the power consumption of both individual cores and the entire CPU package (CPU Cores,Cache Memory,Memory Controller,IGP,IHS, etc). This includes tracking how much power each core is using and the overall power usage of the CPU package, giving insights into energy efficiency and potential areas for optimization.   
 
+**Power Consumption:** The tool also measures the power consumption of both individual cores and the entire CPU package (CPU Cores,Cache Memory,Memory Controller,IGP,IHS, etc). This includes tracking how much power each core is using and the overall power usage of the CPU package, giving insights into energy efficiency and potential areas for optimization.   
+  
+![CPU Metrics](Images/cpu.png)
+                                  CPU Metric plots
+  
 ### 2. RAM and Disk Memory Usage:
 Mantle© monitors the system's RAM usage, displaying the amount of memory currently in use versus available memory. This helps in identifying memory-hungry applications and potential memory bottlenecks.  
   
 **Disk Usage:** The tool tracks disk usage statistics, showing the amount of disk space used and available. It provides insights into disk performance and storage capacity, helping users manage their data storage more effectively.  
+
   
 ### 3. Temperature Monitoring and Power Mode Switching:
 Mantle© tracks the temperature of various system components, including the CPU, GPU, and other critical hardware. It displays real-time temperature readings to help users ensure their system is operating within safe thermal limits.  
