@@ -1,5 +1,9 @@
+[![Python](https://img.shields.io/badge/React-%2300D8FF.svg?style=flat&logo=react&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Flask-%23000.svg?style=flat&logo=flask&logoColor=white)](https://www.docker.com/)
+
 # Mantle©: A comprehensive Power Management tool designed to monitor and display various system metrics and manage telemetry data in real-time ⚡🔋
 # PS01: Power Manager Telemetry
+
 
 In the era of 5G and edge computing, the deployment of devices across different locations,has increased, leading to higher power consumption. To adress this issue corporations and governments worldwide have initiated steps to achieve net-zero power consumption. Additionally, the price of electricity is increasing, making it crucial to understand the total power drawn by the system.  
 
