@@ -1,4 +1,4 @@
-[![Python](https://img.shields.io/badge/Python-%FFFF00FF.svg?style=flat&logo=Python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-%FF9900FF.svg?style=flat&logo=Python&logoColor=white)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-%2300D8FF.svg?style=flat&logo=Docker&logoColor=white)](https://www.docker.com/)
 
 # Mantle©: A comprehensive Power Management tool designed to monitor and display various system metrics and manage telemetry data in real-time ⚡🔋
