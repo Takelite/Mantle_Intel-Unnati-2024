@@ -15,9 +15,7 @@ The main objectives of this project include the following -
 
 ## Demonstration of the Project
 
-
-
-[Click here to watch the demo video](myvideo.mp4)
+[file:///home/NewUser/Downloads/myvideo.mp4](https://github.com/user-attachments/assets/a8be6476-c581-4504-938b-dc3137a348ed)
 
 
 
