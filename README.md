@@ -25,7 +25,9 @@ Mantle© provides real-time monitoring of CPU utilization. It displays the perce
 **Power Consumption:** The tool also measures the power consumption of both individual cores and the entire CPU package (CPU Cores,Cache Memory,Memory Controller,IGP,IHS, etc). This includes tracking how much power each core is using and the overall power usage of the CPU package, giving insights into energy efficiency and potential areas for optimization.   
   
 ![CPU Metrics](Images/cpu.png)
-                                    CPU Metric plots
+<div align="center">
+ CPU Metric plots
+</div>                                   
   
 ### 2. RAM and Disk Memory Usage:
 Mantle© monitors the system's RAM usage, displaying the amount of memory currently in use versus available memory. This helps in identifying memory-hungry applications and potential memory bottlenecks.  
