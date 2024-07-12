@@ -15,9 +15,9 @@ The main objectives of this project include the following -
 
 ## Demonstration of the Project
 
-https://github.com/dhaan-ish/intelOneApiHackathon/assets/119067139/d0834784-0e5a-4795-b0e0-49b617a9e05d
 
-[Click here to watch the demo video](https://acnvxeqqxhmuzwfvzebn.supabase.co/storage/v1/object/public/personal_pro/demo-final.mp4?t=2024-03-12T03%3A32%3A10.017Z)
+
+[Click here to watch the demo video](myvideo.mp4)
 
 
 
