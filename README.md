@@ -66,7 +66,8 @@ Mantle© tracks various GPU metrics, including power consumption, supply voltage
 <div align="center">
  GPU Metric Plots
 </div>  
-      
+
+  
 These features collectively provide a comprehensive view of system performance and power consumption, enabling users to monitor, manage, and optimize their system's efficiency and longevity effectively.
 
 
