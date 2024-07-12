@@ -70,13 +70,39 @@ Mantle© tracks various GPU metrics, including power consumption, supply voltage
 <BR>  
 These features collectively provide a comprehensive view of system performance and power consumption, enabling users to monitor, manage, and optimize their system's efficiency and longevity effectively.
 
+# Usage docker
+sdfsdfsdf
 
+# Program Flow🔄📊
+1.python script
+2. select metrics
+3. stress system with docker
+4. visualise power consumption
+5. capture plots
 
+# Tools Used🛠️
+psutil
+tkinter
+turbostat
+docker
+matplotlib
+sensors
+upower
 
+# What It Does 🤖🚀
+MANTLE © is a comprehensive Power Management tool designed to monitor and display various system metrics  and manage telemetry data in real-time. It provides detailed insights into the overall system statistics  and Power Consumption of various components in system. It can capture your plots, switch mode , and much more
 
+ Features:
+ ✱ CPU Usage and Power Consumption of Core and Package
+ ✱ RAM and Disk Memory usage 
+ ✱ Temperature Monitoring and Power Mode Switching 
+ ✱ Battery statistics and NIC power consumption
+ ✱ GPU metrics tracking
 
+ Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-  time graphs. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies  of your System !
 
-
+# transforming power visualisation
+iuhuihuih
 
 
 
