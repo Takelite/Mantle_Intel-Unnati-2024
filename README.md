@@ -71,7 +71,7 @@ Mantle© tracks various GPU metrics, including power consumption, supply voltage
 These features collectively provide a comprehensive view of system performance and power consumption, enabling users to monitor, manage, and optimize their system's efficiency and longevity effectively.
 
 # Usage Of Docker
-  Docker is a platform for developing, shipping, and running applications inside lightweight, portable, self-sufficient containers. Containers include everything needed to run an application: the code, runtime, libraries, environment variables, and system tools.  ![docker](https://github.com/user-attachments/assets/6b8e1cdd-2373-4918-86ab-17667d19fe18)<width=10>
+  Docker is a platform for developing, shipping, and running applications inside lightweight, portable, self-sufficient containers. Containers include everything needed to run an application: the code, runtime, libraries, environment variables, and system tools. <img ![docker](https://github.com/user-attachments/assets/6b8e1cdd-2373-4918-86ab-17667d19fe18) width=10>
     Using Docker to containerize your Python GUI application ensures a consistent, portable, and isolated environment. This approach helps mitigate dependency conflicts and eases deployment across different systems. By creating a Dockerfile, building an image, and running a container, you encapsulate your application's environment, making it easier to manage and deploy.  
   
 # Program Flow🔄📊
