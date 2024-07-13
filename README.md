@@ -122,7 +122,19 @@ sudo docker build -t stress-cpu .
 ```
 
 This step may take a few minutes, so kindly be patient while your system finishes building the Docker Image to run the container.   
-3. stress system with docker
+  
+**3. Download Mantle Application Code:**
+
+  - If all previous dependencies and Docker have been successfully installed, you are now ready to download and execute Mantle's application on your system.
+  - Open Mantle_GUI_code folder and download the *"mantle_gui.py"* file in your, **current working directory**(For ex. Home). Execute Mantle using the following command-
+```shell
+sudo python3 mantle_gui.py
+```
+**4. Explore Mantle:**
+
+Mantle should now be up and running on your system. Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-time graphs. You can use the Docker block to stress your system from 0-100%, for a specified duration. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies of your System !
+
+
 4. visualise power consumption
 5. capture plots
 
