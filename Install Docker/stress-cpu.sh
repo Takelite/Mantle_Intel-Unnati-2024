@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Create a script named `script.sh` in the same directory as your Dockerfile. 
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <target_percentage> <timeout_seconds>"
     exit 1
