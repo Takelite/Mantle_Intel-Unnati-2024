@@ -190,7 +190,7 @@ MANTLE © is a comprehensive Power Management tool designed to monitor and displ
  - Temperature Monitoring and Power Mode Switching   
  - Battery statistics and NIC power consumption    
  - GPU metrics tracking  
-  
+<img src="https://github.com/Takelite/Mantle_Intel-Unnati-2024/blob/main/Images/gui_light.png?raw=true" width="1200" align="center">  
 Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-time graphs. You can use the Docker block to stress your system from 0-100%, for a specified duration. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies of your System !
 
 ## Transforming Power Visualisation
