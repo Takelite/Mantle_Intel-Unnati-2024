@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Download this file and run it in your terminal
 # Update package lists
 sudo apt-get update
 
