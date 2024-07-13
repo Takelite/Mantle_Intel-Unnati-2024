@@ -42,9 +42,9 @@ This step may take a few minutes, so kindly be patient while your system finishe
 **3. Download Mantle Application Code:**
 
   - If all previous dependencies and Docker have been successfully installed, you are now ready to download and execute Mantle's application on your system.
-  - Open Mantle_GUI_code folder and download the *"mantle_gui.py"* file in your, **current working directory**(For ex. Home). Execute Mantle using the following command-
+  - Open Mantle_GUI_code folder and download the *"mantle.py"* file in your, **current working directory**(For ex. Home). Execute Mantle using the following command-
 ```shell
-sudo python3 mantle_gui.py
+sudo python3 mantle.py
 ```
 **4. Explore Mantle:**
 
