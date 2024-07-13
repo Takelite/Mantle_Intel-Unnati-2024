@@ -84,8 +84,44 @@ These features collectively provide a comprehensive view of system performance a
 
 The flow diagram showcases the sequential steps and interactions within our system, highlighting each stage's contribution to the overall functionality. This ensures a smooth and efficient workflow. Let's explore the key components:
   
-**1. Execute Python Script:**
-2. select metrics
+**1. Install All System Dependencies:**
+
+  - Open the *install dependencies* folder in this github repository and download the *"install_dependencies.sh"* file, in your **current working directory**(For ex. Home). Once downloaded execute the following command in your terminal-
+```shell
+chmod +x install_dependencies.sh
+```
+
+  - Now, execute the *"install_dependencies.sh"* file using the following command-  
+```shell
+./install_dependencies.sh
+```
+
+Now your system dependencies are installed.  
+  
+**2. Install Docker:**
+
+  - Open the *install docker* folder in this github repository and download the *"Step1-install_docker.sh"* file, in your **current working directory**(For ex. Home). Once downloaded execute the following command in your terminal-
+```shell
+chmod +x Step1-install_docker.sh
+```
+
+  - Now, execute the *"Step1-install_docker.sh"* file using the following command-  
+```shell
+./Step1-install_docker.sh
+```
+
+Now Docker is installed, the next step is to create a Dockerfile. Use the command below to create the Dockerfile.    
+```shell
+vi Dockerfile
+```  
+  - Open the *install docker* folder in this github repository and copy the contents of *"Step2-Create Dockerfile"* file and paste it in the newly created Dockerfile using the vi editor. Press escape and use **:wq** to save and exit the vi editor.
+  - Once done download *"Step3-install stress-cpu.sh"* from the same folder and **save it as "stress-cpu.sh"** , in your **current working directory**(For ex. Home). 
+  - Once saved, execute the following command in your terminal-   
+```shell
+sudo docker build -t stress-cpu .
+```
+
+This step may take a few minutes, so kindly be patient while your system finishes building the Docker Image to run the container.   
 3. stress system with docker
 4. visualise power consumption
 5. capture plots
