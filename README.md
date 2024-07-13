@@ -185,11 +185,11 @@ Mantle utilises various python libraries and linux tools to present accurate rea
 MANTLE © is a comprehensive Power Management tool designed to monitor and display various system metrics  and manage telemetry data in real-time. It provides detailed insights into the overall system statistics  and Power Consumption of various components in system. It can capture your plots, switch mode , and much more
    
  Features:  
- ✱ CPU Usage and Power Consumption of Core and Package  
- ✱ RAM and Disk Memory usage   
- ✱ Temperature Monitoring and Power Mode Switching   
- ✱ Battery statistics and NIC power consumption    
- ✱ GPU metrics tracking  
+ - CPU Usage and Power Consumption of Core and Package  
+ - RAM and Disk Memory usage   
+ - Temperature Monitoring and Power Mode Switching   
+ - Battery statistics and NIC power consumption    
+ - GPU metrics tracking  
   
 Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-time graphs. You can use the Docker block to stress your system from 0-100%, for a specified duration. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies of your System !
 
