@@ -80,9 +80,9 @@ These features collectively provide a comprehensive view of system performance a
 **2. Build the Docker Image:** Using the Dockerfile, build a Docker image that contains the application and its dependencies.  
 **3. Run the Container:** Start a container from your image which includes input parameters like percentage CPU Loading and Duration to run the container. The Start button on the GUI will execute the Docker container and stress the CPU based on the input parameters, the stop button can be used to terminate the container before completing its duration
     
-# Program Flow🔄📊
+## Steps To Install Mantle
 
-The flow diagram showcases the sequential steps and interactions within our system, highlighting each stage's contribution to the overall functionality. This ensures a smooth and efficient workflow. Let's explore the key components:
+Mantle has been designed using Ubuntu 22.04, follow the steps listed below to install Mantle on your system.
   
 **1. Install All System Dependencies:**
 
@@ -133,23 +133,57 @@ sudo python3 mantle_gui.py
 **4. Explore Mantle:**
 
 Mantle should now be up and running on your system. Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-time graphs. You can use the Docker block to stress your system from 0-100%, for a specified duration. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies of your System !
+  
+## Tools Used🛠️
+  
+Certainly! Here's a bit more in-depth explanation of each tool:
 
+### psutil
+  - `psutil` (Python System and Process Utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors).
+  - It provides APIs for CPU and memory usage, disk I/O, network information, and more.
+  - Retrieves sensor data such as temperature and fan speed.
+  - Allows management of system processes (e.g., killing processes, querying process details).
 
-4. visualise power consumption
-5. capture plots
+### tkinter
+  - `tkinter` is the standard GUI toolkit for Python. 
+  - Offers widgets (buttons, labels, entry fields, etc.) for building graphical interfaces.
+  - It supports event-driven programming paradigm for handling user inputs and events.
+  - Provides cross-platform support and is included with Python installations by default.
 
-# Tools Used🛠️
-psutil
-tkinter
-turbostat
-docker
-matplotlib
-sensors
-upower
+### turbostat
+  - `turbostat` is a Linux command-line tool that reports processor frequency and power statistics.
+  - Displays CPU frequency, utilization, temperature, and power metrics.
+  - Provides insights into CPU power states (C-states) and Turbo Boost frequencies.
+  - Useful for monitoring and optimizing CPU performance and power consumption.
 
-# What It Does 🤖🚀
+### docker
+  - `Docker` is a platform for developing, shipping, and running applications inside containers.
+  - Uses containerization to package applications and their dependencies into isolated environments.
+  - Provides consistent deployment across different environments (development, testing, production).
+  - Facilitates scalability, portability, and efficiency by reducing overhead and ensuring application isolation.
+
+### matplotlib
+  - `matplotlib` is a comprehensive plotting library for Python.
+  - Supports various types of plots: line plots, bar charts, histograms, scatter plots, etc.
+  - Offers extensive customization options for plot aesthetics and labels.
+  - Allows creation of static, animated, and interactive visualizations.
+
+### sensors (lm-sensors) 
+  - `lm-sensors` (Linux Hardware Monitoring) is a suite of tools and drivers for monitoring hardware sensors.
+  - Supports monitoring temperature, voltage, and fan speeds of various hardware components.
+  - Provides command-line utilities (`sensors`) for querying sensor data.
+  - Helps in monitoring system health and identifying potential hardware issues.
+
+### upower
+  - `upower` is a daemon that provides information about power devices and manages power-related operations.
+  - Retrieves battery status (charge level, capacity, etc.) and power adapter status.
+  - Allows querying power management features such as suspend, hibernate, and power-off.
+  - Provides notifications and events related to power changes and device connectivity.
+
+## What It Does 
+  
 MANTLE © is a comprehensive Power Management tool designed to monitor and display various system metrics  and manage telemetry data in real-time. It provides detailed insights into the overall system statistics  and Power Consumption of various components in system. It can capture your plots, switch mode , and much more
-
+   
  Features:
  ✱ CPU Usage and Power Consumption of Core and Package
  ✱ RAM and Disk Memory usage 
@@ -157,10 +191,34 @@ MANTLE © is a comprehensive Power Management tool designed to monitor and displ
  ✱ Battery statistics and NIC power consumption
  ✱ GPU metrics tracking
 
- Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-  time graphs. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies  of your System !
+Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-time graphs. You can use the Docker block to stress your system from 0-100%, for a specified duration. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies of your System !
 
-# transforming power visualisation
-iuhuihuih
+## Transforming Power Visualisation
+    
+**Real-Time Monitoring:** Mantle allows users to see real-time data on CPU, GPU, memory, and network usage. This immediate feedback allows them to identify and address power-hungry applications and processes instantly. By monitoring temperatures, users can prevent overheating, ensuring their system operates within safe limits, thereby maintaining performance and preventing hardware damage.
+  
+**Efficiency Optimization:** Power Mode Switching enables users to switch between different power modes (performance, balanced, and power-saving) based on their current needs, optimizing power consumption for tasks like gaming, video editing, or simple browsing.
+Detailed insights into CPU and memory usage help users allocate resources more efficiently, reducing unnecessary power consumption by closing or optimizing poorly performing applications.
+  
+**Battery Management:** By monitoring battery statistics, users can make informed decisions to extend their battery life, such as reducing screen brightness, disabling unused peripherals, and switching to power-saving modes.
+  
+**Long-Term Data Analysis:** By storing and analyzing historical data, users can identify long-term trends in power consumption and system performance, enabling them to make proactive adjustments to their setup.
+Predictive Maintenance: Regular monitoring can help predict hardware failures before they occur, allowing for timely maintenance and upgrades, thus avoiding downtime and saving costs.
+Sustainable Practices:
+
+**Eco-Friendly Computing:** With detailed insights into power consumption, users can adopt more eco-friendly computing practices, such as reducing unnecessary power usage and opting for energy-efficient hardware.
+Informed Upgrades: Users can make informed decisions when upgrading their hardware, choosing components that offer better performance-per-watt ratios, thereby reducing their overall carbon footprint.
+Enterprise Applications:
+
+**Scalable Monitoring:** For businesses, implementing MANTLE © across multiple systems can lead to significant energy savings at scale. Centralized monitoring and management of power consumption can reduce operational costs and enhance sustainability.
+
+**Research and Development:** Developers and engineers can use the data provided by MANTLE © to innovate new technologies and solutions aimed at further reducing power consumption and enhancing system efficiency.
+Integration with IoT: As the Internet of Things (IoT) evolves, integrating MANTLE © with IoT devices can lead to smarter, more efficient homes and workplaces, where devices communicate to optimize power usage collaboratively.
+Educational Impact
+
+**Cloud Integration:** Extend the GUI to collect and analyze power data from distributed systems and cloud environments.IoT Integration extends monitoring capabilities to IoT devices and sensors, allowing comprehensive power management across interconnected devices.
+
+In summary, MANTLE © not only provides immediate benefits by optimizing current power usage but also equips users with the tools and insights needed for sustainable, efficient power management in the future. Its impact spans individual users, businesses, and the broader community, contributing to a more energy-efficient and environmentally conscious world.
 
 
 
