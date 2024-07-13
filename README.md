@@ -71,11 +71,20 @@ Mantle© tracks various GPU metrics, including power consumption, supply voltage
 These features collectively provide a comprehensive view of system performance and power consumption, enabling users to monitor, manage, and optimize their system's efficiency and longevity effectively.
 
 # Usage Of Docker
-  Docker is a platform for developing, shipping, and running applications inside lightweight, portable, self-sufficient containers. Containers include everything needed to run an application: the code, runtime, libraries, environment variables, and system tools. <img src="![docker](https://github.com/user-attachments/assets/6b8e1cdd-2373-4918-86ab-17667d19fe18)" width="100">
-    Using Docker to containerize your Python GUI application ensures a consistent, portable, and isolated environment. This approach helps mitigate dependency conflicts and eases deployment across different systems. By creating a Dockerfile, building an image, and running a container, you encapsulate your application's environment, making it easier to manage and deploy.  
+ Docker is a platform for developing, shipping, and running applications inside lightweight, portable, self-sufficient <img src="https://github.com/user-attachments/assets/6b8e1cdd-2373-4918-86ab-17667d19fe18" width="120" align="right">containers. Containers include everything needed to run an application: the code, runtime, libraries, environment variables, and system tools. 
+    Using Docker to containerize your Python GUI application ensures a consistent, portable, and isolated environment. This approach helps mitigate dependency conflicts and eases deployment across different systems. By creating a Dockerfile, building an image, and running a container, you encapsulate your application's environment, making it easier to manage and deploy. 
+
+**Steps to Use Docker with Your GUI Application**  
   
+**1. Creating a Dockerfile:** This file will describe the environment needed to run within the GUI application.  
+**2. Build the Docker Image:** Using the Dockerfile, build a Docker image that contains the application and its dependencies.  
+**3. Run the Container:** Start a container from your image which includes input parameters like percentage CPU Loading and Duration to run the container. The Start button on the GUI will execute the Docker container and stress the CPU based on the input parameters, the stop button can be used to terminate the container before completing its duration
+    
 # Program Flow🔄📊
-1.python script
+
+The flow diagram showcases the sequential steps and interactions within our system, highlighting each stage's contribution to the overall functionality. This ensures a smooth and efficient workflow. Let's explore the key components:
+  
+**1. Execute Python Script:**
 2. select metrics
 3. stress system with docker
 4. visualise power consumption
