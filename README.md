@@ -15,7 +15,7 @@ The main objectives of this project include the following -
 
 ## Demonstration of the Project
 
-[file:///home/NewUser/Downloads/myvideo.mp4](https://github.com/user-attachments/assets/a8be6476-c581-4504-938b-dc3137a348ed)
+[Screencast from 2024-07-14 04-22-54.webm](https://github.com/user-attachments/assets/e010fca8-a9d3-4a9c-9f50-9039a4b36d85)
 
 ## Features of Mantle
   
