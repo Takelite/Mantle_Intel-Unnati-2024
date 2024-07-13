@@ -24,6 +24,8 @@ Mantle© provides real-time monitoring of CPU utilization. It displays the perce
 
 **Power Consumption:** The tool also measures the power consumption of both individual cores and the entire CPU package (CPU Cores,Cache Memory,Memory Controller,IGP,IHS, etc). This includes tracking how much power each core is using and the overall power usage of the CPU package, giving insights into energy efficiency and potential areas for optimization.   
   
+**Thermal Design Power:** of AMD Ryzen 5 5500U is theoretically 15W which is validated by the TDP Value provided by Mantle's plot which is around 14.7W at 100% CPU load.
+  
 ![CPU Metrics](Images/cpu.png)
 <div align="center">
  CPU Metric Plots
@@ -42,8 +44,12 @@ Mantle© monitors the system's RAM usage, displaying the amount of memory curren
 ### 3. Temperature Monitoring and Power Mode Switching:
 Mantle© tracks the temperature of various system components, including the CPU, GPU, and other critical hardware. It displays real-time temperature readings to help users ensure their system is operating within safe thermal limits.  
   
-**Power Mode Switching:** The tool allows users to switch between different power modes, such as performance mode, balanced mode, and power-saving mode. This enables users to optimize their system's power consumption based on their current needs, whether they require maximum performance or extended battery life.  
-
+**Power Mode Switching:** The tool allows users to switch between different power modes, such as performance mode, balanced mode, and power-saving mode. This enables users to optimize their system's power consumption based on their current needs, whether they require maximum performance or extended battery life. 
+When the CPU is in a relatively idle state (<10% CPU Utilisation), the different power modes consume the following amount of power-  
+  - Power Saving: ~6.2W  
+  - Balanced: ~7.1W  
+  - Performance: ~8.6W  
+  
 ![Power Metrics](Images/temp.png)
  <div align="center">
 Temperature Plots
