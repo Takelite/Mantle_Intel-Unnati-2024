@@ -14,10 +14,10 @@ The main objectives of this project include the following -
     4. Measure and record system power utilization for CPU, NIC, and TDP based on the input parameter of system utilization percentage.  
 
 ## Demonstration of the Project
-
+  
 [Screencast from 2024-07-14 04-22-54.webm](https://github.com/user-attachments/assets/e010fca8-a9d3-4a9c-9f50-9039a4b36d85)
 
-## Features of Mantle
+## Features of Mantle💡
   
 ### 1. CPU Metrics:
 Mantle© provides real-time monitoring of CPU utilization. It displays the percentage of CPU usage for each individual core, allowing users to see which cores are under heavy load and which are idle. This helps in understanding the distribution of processing tasks across the CPU. C-states (idle states) are various levels of CPU idle modes where parts of the CPU can be powered down to save energy. Our GUI visualizes these states, showing the percentage of time the CPU spends in each C-state.  
@@ -201,7 +201,7 @@ MANTLE © is a comprehensive Power Management tool designed to monitor and displ
 <img src="https://github.com/Takelite/Mantle_Intel-Unnati-2024/blob/main/Images/gui_light2.png?raw=true" width="1200" align="center">  
 Use the Metrics Menu on the left to access and navigate through different metrics and visualize them with real-time graphs. You can use the Docker block to stress your system from 0-100%, for a specified duration. Customize the appearance with light/dark mode through the Menu bar and explore the intricacies of your System !
 
-## Transforming Power Visualisation
+## Transforming Power Visualisation⭐
     
 **Real-Time Monitoring:** Mantle allows users to see real-time data on CPU, GPU, memory, and network usage. This immediate feedback allows them to identify and address power-hungry applications and processes instantly. By monitoring temperatures, users can prevent overheating, ensuring their system operates within safe limits, thereby maintaining performance and preventing hardware damage.
   
@@ -213,8 +213,10 @@ Detailed insights into CPU and memory usage help users allocate resources more e
 **Long-Term Data Analysis:** By storing and analyzing historical data, users can identify long-term trends in power consumption and system performance, enabling them to make proactive adjustments to their setup.
 Predictive Maintenance: Regular monitoring can help predict hardware failures before they occur, allowing for timely maintenance and upgrades, thus avoiding downtime and saving costs.
   
-  <center><img src="https://github.com/user-attachments/assets/23f3eebb-8e2a-4f3c-9691-281159ba9db5" width="900" class="center"></center>  
-    
+<div align="center">
+ <img src="https://github.com/user-attachments/assets/16116f13-5d38-4b12-b2b3-c9966bff9fc9" width="700" class="center"> 
+</div>    
+  
 **Research and Development:** Developers and engineers can use the data provided by MANTLE © to innovate new technologies and solutions aimed at further reducing power consumption and enhancing system efficiency.
 Integration with IoT: As the Internet of Things (IoT) evolves, integrating MANTLE © with IoT devices can lead to smarter, more efficient homes and workplaces, where devices communicate to optimize power usage collaboratively.
 Educational Impact
