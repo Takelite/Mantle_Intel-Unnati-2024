@@ -212,21 +212,16 @@ Detailed insights into CPU and memory usage help users allocate resources more e
   
 **Long-Term Data Analysis:** By storing and analyzing historical data, users can identify long-term trends in power consumption and system performance, enabling them to make proactive adjustments to their setup.
 Predictive Maintenance: Regular monitoring can help predict hardware failures before they occur, allowing for timely maintenance and upgrades, thus avoiding downtime and saving costs.
-Sustainable Practices:
-
-**Eco-Friendly Computing:** With detailed insights into power consumption, users can adopt more eco-friendly computing practices, such as reducing unnecessary power usage and opting for energy-efficient hardware.
-Informed Upgrades: Users can make informed decisions when upgrading their hardware, choosing components that offer better performance-per-watt ratios, thereby reducing their overall carbon footprint.
-Enterprise Applications:
-
-**Scalable Monitoring:** For businesses, implementing MANTLE © across multiple systems can lead to significant energy savings at scale. Centralized monitoring and management of power consumption can reduce operational costs and enhance sustainability.
-
+  
+  <center><img src="https://github.com/user-attachments/assets/23f3eebb-8e2a-4f3c-9691-281159ba9db5" width="900" class="center"></center>  
+    
 **Research and Development:** Developers and engineers can use the data provided by MANTLE © to innovate new technologies and solutions aimed at further reducing power consumption and enhancing system efficiency.
 Integration with IoT: As the Internet of Things (IoT) evolves, integrating MANTLE © with IoT devices can lead to smarter, more efficient homes and workplaces, where devices communicate to optimize power usage collaboratively.
 Educational Impact
 
 **Cloud Integration:** Extend the GUI to collect and analyze power data from distributed systems and cloud environments.IoT Integration extends monitoring capabilities to IoT devices and sensors, allowing comprehensive power management across interconnected devices.
-
-In summary, MANTLE © not only provides immediate benefits by optimizing current power usage but also equips users with the tools and insights needed for sustainable, efficient power management in the future. Its impact spans individual users, businesses, and the broader community, contributing to a more energy-efficient and environmentally conscious world.
+  
+In summary, MANTLE © not only provides immediate benefits by optimizing current power usage but also equips users with the tools and insights needed for sustainable and efficient power management. Its impact spans individual users, businesses, and the broader community, contributing to a more energy-efficient and environmentally conscious world.
 
 
 
