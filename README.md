@@ -24,7 +24,7 @@ Mantle© provides real-time monitoring of CPU utilization. It displays the perce
 
 **Power Consumption:** The tool also measures the power consumption of both individual cores and the entire CPU package (CPU Cores,Cache Memory,Memory Controller,IGP,IHS, etc). This includes tracking how much power each core is using and the overall power usage of the CPU package, giving insights into energy efficiency and potential areas for optimization.   
   
-**Thermal Design Power:** The TDP of our AMD Ryzen 5 5500U is theoretically 15W which is validated by the TDP Value provided by Mantle's plot which is around 14.7W at 100% CPU load.
+**Thermal Design Power:** The TDP of our AMD Ryzen 5 5500U processor is theoretically 15W which is validated by the TDP Value provided by Mantle's plot, at around 14.7W at 100% CPU load.
   
 ![CPU Metrics](Images/cpu.png)
 <div align="center">
