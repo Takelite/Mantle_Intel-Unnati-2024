@@ -144,6 +144,8 @@ Mantle should now be up and running on your system. Use the Metrics Menu on the 
 
 Mantle utilises various python libraries and linux tools to present accurate real-time data through concise plots. This is made possible by the following open-source tools-
   
+<img src="https://github.com/user-attachments/assets/7f1f890b-1aa0-4b1a-8144-4664ccd6e3fa" width="600" align="center">   
+  
 ### psutil
   - `psutil` (Python System and Process Utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors).
   - It provides APIs for CPU and memory usage, disk I/O, network information, and more.
